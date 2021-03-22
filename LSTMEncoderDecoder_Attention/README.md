@@ -19,7 +19,7 @@
 
 ## モデル構築
 <img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/model.png" width="70%"><br>
-LSTMを用いたEncoder-Decoder-Attentionモデルを構築した。質問文をEncoderに入力し内部表現を獲得する。その後、その内部表現をDecoderのLSTMの初期内部状態として逐一回答文を生成していく。
+LSTMを用いたEncoder-Decoder-Attentionモデルを構築した。質問文をEncoderに入力し内部表現を獲得する。その後、その内部表現に対し、Decoderで得た内部表現とAttentionをかける事で、トークンを出力するたびに入力のどの部分に注目するかを学習する。Attentionは内積を用いている。
 アーキテクチャの概略は上の通りである。
 訓練時にはターゲットとなる文章を入力し、それぞれ次の単語を予測するように学習した。誤差関数はクロスエントロピー誤差関数を用いた。
 最適化手法はAdamを選択し、ハイパーパラメータとしては以下がある。

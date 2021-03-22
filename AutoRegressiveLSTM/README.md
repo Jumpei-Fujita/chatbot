@@ -42,6 +42,6 @@ LSTMを用いた自己回帰モデルを構築した。そのため、EcnoderDec
 ![graph](https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/graph.png)
 
 ## コードの実行手順
-mnist.ipynbを上から順に実行していく
+AutoRegressiveLSTM.ipynbを上から順に実行していく
 
 

@@ -18,7 +18,7 @@
 
 
 ## モデル構築
-<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/Untitled%20Diagram.png" width="50%"><br>
+<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder/LSTMEncoderDecoder/model.png" width="50%"><br>
 LSTMを用いた自己回帰モデルを構築した。そのため、EcnoderDecoderフレームワークのDecoder部分を用いた。
 アーキテクチャの概略は以下の通りである。
 訓練時にはターゲットとなる文章を入力し、それぞれ次の単語を予測するように学習した。誤差関数はクロスエントロピー誤差関数を用いた。

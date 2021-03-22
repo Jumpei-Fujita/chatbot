@@ -34,6 +34,7 @@ LSTMを用いた自己回帰モデルを構築した。そのため、EcnoderDec
 ## テスト結果
 ### 1.テスト用データに対する応答
 ![test](https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/test.png)
+<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/test.png" width="50%">
 ### 2.モデル自身で会話
 ![dialog](https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/dialog.png)
 

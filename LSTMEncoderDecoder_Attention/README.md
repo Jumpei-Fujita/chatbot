@@ -18,7 +18,7 @@
 
 
 ## モデル構築
-<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/model.png" width="50%"><br>
+<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/model.png" width="70%"><br>
 LSTMを用いたEncoder-Decoderモデルを構築した。質問文をEncoderに入力し内部表現を獲得する。その後、その内部表現をDecoderのLSTMの初期内部状態として逐一回答文を生成していく。
 アーキテクチャの概略は上の通りである。
 訓練時にはターゲットとなる文章を入力し、それぞれ次の単語を予測するように学習した。誤差関数はクロスエントロピー誤差関数を用いた。
@@ -33,7 +33,7 @@ LSTMを用いたEncoder-Decoderモデルを構築した。質問文をEncoderに
 
 ## テスト結果
 ### 1.テスト用データに対する応答
-<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/attention.png" width="70%">
+<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/attention.png" width="30%">
 
 ### 2.モデル自身で会話
 <img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/dialog.png" width="50%">

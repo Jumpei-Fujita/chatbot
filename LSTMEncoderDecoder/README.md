@@ -33,13 +33,13 @@ LSTMを用いた自己回帰モデルを構築した。そのため、EcnoderDec
 
 ## テスト結果
 ### 1.テスト用データに対する応答
-<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/test.png" width="70%">
+<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder/LSTMEncoderDecoder/test.png" width="70%">
 
 ### 2.モデル自身で会話
-<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/dialog.png" width="50%">
+<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder/LSTMEncoderDecoder/dialog.png" width="50%">
 
 ### 3.学習の様子
-![graph](https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/graph.png)
+![graph](https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder/LSTMEncoderDecoder/graph.png)
 
 ## コードの実行手順
 AutoRegressiveLSTM.ipynbを上から順に実行していく

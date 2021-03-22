@@ -42,6 +42,6 @@ LSTMを用いた自己回帰モデルを構築した。そのため、EcnoderDec
 ![graph](https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder/LSTMEncoderDecoder/graph.png)
 
 ## コードの実行手順
-AutoRegressiveLSTM.ipynbを上から順に実行していく
+LSTMEncoderDecoder.ipynbを上から順に実行していく
 
 

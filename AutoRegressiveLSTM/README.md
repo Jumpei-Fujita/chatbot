@@ -33,14 +33,12 @@ LSTMを用いた自己回帰モデルを構築した。そのため、EcnoderDec
 
 ## テスト結果
 ### 1.テスト用データに対する応答
-![test]()
+![test](https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/test.png)
 ### 2.モデル自身で会話
-![dialog]()
+![dialog](https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/dialog.png)
 
-### 学習の様子
-![graph]()
-### 検証用データに対する正解率の推移
-![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/graph.png)
+### 3.学習の様子
+![graph](https://github.com/Jumpei-Fujita/chatbot/blob/main/AutoRegressiveLSTM/ARLSTM/graph.png)
 
 ## コードの実行手順
 mnist.ipynbを上から順に実行していく

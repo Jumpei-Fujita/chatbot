@@ -1,5 +1,15 @@
 # Auto Regressive LSTM 
 
+## データセット 
+### 訓練時
+||入力|出力|
+|:--|:--|:--|
+|1|hi, how are you doing?<PAD>i'm fine. how about yourself?|, how are you doing?<PAD>i'm fine. how about yourself?<CLS>|
+|2|i'm fine. how about yourself?<PAD>i'm pretty good. thanks for asking.<CLS>|'m fine. how about yourself?<PAD>i'm pretty good. thanks for asking.<CLS>|
+|3|:|:|
+
+
+
 
 ## モデル構築
 ![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/dentsu_cnn.png)<br>
@@ -10,6 +20,10 @@ LSTMを用いた自己回帰モデルを構築した。そのため、EcnoderDec
 |ハイパーパラメータ| |
 |:--|:--|
 |``` d_model```|dimension、embedding size|
+|```lr```|学習率|
+|```epochs```|学習エポック数|
+|```batch_size```|バッチサイズ|
+
 
 ## テスト結果
 ### 1.テスト用データに対するPrecision, Recall, F-score

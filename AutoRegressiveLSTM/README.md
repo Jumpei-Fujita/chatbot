@@ -8,6 +8,12 @@
 |2|i'm fine. how about yourself?\<PAD\>i'm pretty good. thanks for asking.|'m fine. how about yourself?\<PAD\>i'm pretty good. thanks for asking.\<CLS\>|
 |3|:|:|
 
+### 推論時
+||入力|出力|
+|:--|:--|:--|
+|1|hi, how are you doing?\<PAD\>|i'm fine. how about yourself?\<CLS\>|
+|2|i'm fine. how about yourself?\<PAD\>|i'm pretty good. thanks for asking.\<CLS\>|
+|3|:|:|
 
 
 

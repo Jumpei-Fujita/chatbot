@@ -42,7 +42,7 @@ LSTMを用いたEncoder-Decoder-Attentionモデルを構築した。質問文を
 ![graph](https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/graph.png)
 
 ## コードの実行手順
-LSTMEncoderDecoder.ipynbを上から順に実行していく
+LSTMEncoderDecoderAttention.ipynbを上から順に実行していく
 
 
 

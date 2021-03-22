@@ -32,15 +32,13 @@ LSTMを用いた自己回帰モデルを構築した。そのため、EcnoderDec
 
 
 ## テスト結果
-### 1.テスト用データに対するPrecision, Recall, F-score
-|label|0|1|2|3|4|5|6|7|8|9|
-|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
-|Precision|0.96|0.99|0.96|0.99|0.96|0.96|0.99|0.98|0.97|0.98|
-|Recall|0.81|0.82|0.83|0.80|0.80|0.80|0.78|0.80|0.79|0.79|
-|F-score|0.88|0.90|0.89|0.88|0.87|0.87|0.87|0.88|0.87|0.88|
+### 1.テスト用データに対する応答
+![test]()
+### 2.モデル自身で会話
+![dialog]()
 
 ### 学習の様子
-![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/graph_loss.png)
+![graph]()
 ### 検証用データに対する正解率の推移
 ![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/graph.png)
 

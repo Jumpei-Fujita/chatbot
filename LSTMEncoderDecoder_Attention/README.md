@@ -36,7 +36,7 @@ LSTMを用いたEncoder-Decoderモデルを構築した。質問文をEncoderに
 <img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/attention.png" width="30%">
 
 ### 2.モデル自身で会話
-<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/dialog.png" width="50%">
+<img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/dialog.png" width="80%">
 
 ### 3.学習の様子
 ![graph](https://github.com/Jumpei-Fujita/chatbot/blob/main/LSTMEncoderDecoder_Attention/LSTM_Attention_chatbot/graph.png)

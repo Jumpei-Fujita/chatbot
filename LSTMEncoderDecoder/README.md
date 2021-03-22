@@ -1,4 +1,4 @@
-# LSTM Encder--Decoder
+# LSTM Encder-Decoder
 
 ## データセット 
 ### 訓練時

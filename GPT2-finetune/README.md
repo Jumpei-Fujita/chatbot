@@ -19,13 +19,12 @@
 
 ## モデル構築
 <img src="https://github.com/Jumpei-Fujita/chatbot/blob/main/GPT2-finetune/GPT2-finetune/model.png" width="50%"><br>
-LSTMを用いた自己回帰モデルを構築した。そのため、EcnoderDecoderフレームワークのDecoder部分を用いた。
+事前学習済モデルであるGPT-2を用いた自己回帰モデルを構築した。GPT-2はtransformerのDecoder部分の積み重ねによる構造になっており、様々なテキストを用いて事前に学習されたパラメータが設定されている。
 アーキテクチャの概略は上の通りである。
 訓練時にはターゲットとなる文章を入力し、それぞれ次の単語を予測するように学習した。誤差関数はクロスエントロピー誤差関数を用いた。
 最適化手法はAdamを選択し、ハイパーパラメータとしては以下がある。
 |ハイパーパラメータ| |
 |:--|:--|
-|``` d_model```|dimension、embedding size|
 |```lr```|学習率|
 |```epochs```|学習エポック数|
 |```batch_size```|バッチサイズ|
